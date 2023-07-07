@@ -1,1 +1,1 @@
-DeepAR SDK version: v5.3.0-alpha-912
+DeepAR SDK version: v5.3.0-alpha-927
