@@ -37,13 +37,6 @@ DeepAR is available as xcframework
 through [CocoaPods](https://cocoapods.org/), [Swift Package Manager](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app)
 and can be downloaded directly from [DeepAR Developer Portal](https://developer.deepar.ai/downloads).
 
-### CocoaPods
-
-To install DeepAR via CocoaPods, add this to your Podfile:
-```ruby
-pod 'DeepAR'
-```
-
 ### Swift Packages
 
 Add [swift package](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app) to your Xcode project
@@ -51,6 +44,16 @@ from this GitHub URL:
 ```text
 https://github.com/DeepARSDK/swift-deepar
 ```
+
+### CocoaPods
+
+To install DeepAR via CocoaPods, add this to your Podfile:
+```ruby
+pod 'DeepAR'
+```
+
+If the `pod install` command fails, you may need to run `pod install --repo-update`.
+This is because the CocoaPods repos sometimes need a lot of time to sync.
 
 ### Direct download
 
@@ -116,6 +119,21 @@ Call `switchEffect` method to load an AR filter from a file.
 File can be placed in the app bundle or fetched from network and saved to device.
 ```swift
 deepAR.switchEffect(withSlot: "effect", path: path)
+```
+
+## Background blur
+
+Blur the background with blur strength 5.
+```swift
+deepAR.backgroundBlur(true, strength: 5)
+```
+
+## Background replacement
+
+Also known as background removal or greenscreen effect.
+
+```swift
+deepAR.backgroundReplacement(true, image: UIImage(named: "sunny_beach.png"))
 ```
 
 ## License
