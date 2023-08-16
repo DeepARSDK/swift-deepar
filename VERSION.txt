@@ -1,1 +1,1 @@
-DeepAR SDK version: v5.4.0
+DeepAR SDK version: v5.4.1-revert-lazy-load-alpha-35
