@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DeepAR",
-            url: "https://s3.eu-west-1.amazonaws.com/sdk.developer.deepar.ai/ci/ios-distribution/DeepAR-iOS-v5.4.2.zip",
-            checksum: "916bbc3fb777d18978ff2d5914fc20716f99a222b7f2a4ae928736f74bb23446"
+            url: "https://s3.eu-west-1.amazonaws.com/sdk.developer.deepar.ai/ci/ios-distribution/DeepAR-iOS-v5.4.3.zip",
+            checksum: "38260fe0c23ad38f028b2436b7dd05978a287f4be93cc18a8cbb28dc9f50fae5"
         )
     ]
 )
