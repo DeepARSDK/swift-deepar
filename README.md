@@ -28,7 +28,7 @@ DeepAR can be used in both Swift and ObjC projects.
 
 ## Documentation
 
-- Visit official DeepAR docs for iOS SDK [here](https://docs.deepar.ai/category/deepar-sdk-for-ios).
+- Visit official DeepAR docs for iOS SDK [here](https://docs.deepar.ai/deepar-sdk/platforms/ios/overview).
 - See the official example [here](https://github.com/DeepARSDK/quickstart-ios-swift).
 
 ## Install
@@ -111,7 +111,7 @@ Wait for the `didInitialize` delegate to be called.
 AR filters are represented by effect files in DeepAR. You can load them to preview the effect.
 
 Places you can get DeepAR effects:
-- Download a free filter pack: https://docs.deepar.ai/deep-ar-studio/free-filter-pack.
+- Download a free filter pack: https://docs.deepar.ai/deepar-sdk/filters.
 - Visit DeepAR asset store: https://www.store.deepar.ai/
 - Create your own filters with [DeepAR Studio](https://www.deepar.ai/creator-studio).
 
