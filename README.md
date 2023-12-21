@@ -111,7 +111,7 @@ Wait for the `didInitialize` delegate to be called.
 AR filters are represented by effect files in DeepAR. You can load them to preview the effect.
 
 Places you can get DeepAR effects:
-- Download a free filter pack: https://docs.deepar.ai/deepar-sdk/filters.
+- Download a free filter pack: https://docs.deepar.ai/deepar-sdk/filters#free-effects-pack-content.
 - Visit DeepAR asset store: https://www.store.deepar.ai/
 - Create your own filters with [DeepAR Studio](https://www.deepar.ai/creator-studio).
 
