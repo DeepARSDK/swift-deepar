@@ -1,1 +1,1 @@
-DeepAR SDK version: v5.6.17
+DeepAR SDK version: v5.6.18
